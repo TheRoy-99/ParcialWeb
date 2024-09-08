@@ -1,0 +1,85 @@
+.container_principal {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden; 
+}
+
+.logo {
+    width: 300px; 
+    margin-left: 45px;
+    height: auto; 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.container-buttons {
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35); 
+    position: relative;
+    max-width: 320px;
+    min-height: 250px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 10px; 
+    text-align: center;
+}
+
+.container-buttons h3 {
+    font-size: 30px;
+    font-weight: 200;
+    color: #772d65;
+    padding-bottom: 12px;
+}
+
+.container-buttons h3 span {
+    font-weight: 800;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-login, .btn-register {
+    width: 120px;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-size: 16px; 
+}
+
+.btn-login {
+    background-color: #9b0d81;
+}
+.btn-register {
+    background-color: #492613;
+}
+
+
+.img-background {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}

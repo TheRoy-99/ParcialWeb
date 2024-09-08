@@ -1,0 +1,85 @@
+.container_principal {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow-y: auto; 
+}
+
+
+.dona {
+    width: 300px; 
+    height: auto; 
+    position: absolute;
+    top: 1%; 
+    z-index: 2; 
+}
+
+.form-container {
+    width: 90%;
+    max-width: 300px; 
+    padding: 20px; 
+    background-color: #ffffff;
+    border-radius: 15px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    z-index: 1; 
+    margin-top: 80%; 
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #772d65;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box; 
+}
+
+
+.input-field:focus {
+    border-color: #9b0d81;
+    outline: none;
+}
+
+.submit-btn, .back-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+.submit-btn {
+    background-color: #9b0d81;
+}
+
+.submit-btn:hover {
+    background-color: #8b0b74;
+}
+
+.back-btn {
+    background-color: #492613;
+}
+
+.back-btn:hover {
+    background-color: #3c2010;
+}

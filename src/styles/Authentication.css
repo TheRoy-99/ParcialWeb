@@ -1,0 +1,19 @@
+.container_principal {
+    width: 100vw;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow-y: auto;
+}
+
+
+.dona {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    z-index: 2; 
+}
