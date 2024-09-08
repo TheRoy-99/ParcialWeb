@@ -14,12 +14,13 @@
     margin-left: 45px;
     height: auto; 
     position: absolute;
+    top: 20%;
     display: flex;
     justify-content: center;
 }
 
 .container-buttons {
-    margin-top: 200px;
+    margin-top: 250px;
     width: 100%;
     height: auto;
     display: flex;
@@ -43,7 +44,7 @@
 .container-buttons h3 {
     font-size: 30px;
     font-weight: 200;
-    color: #772d65;
+    color: #460eb7;
     padding-bottom: 12px;
 }
 
@@ -67,10 +68,10 @@
 }
 
 .btn-login {
-    background-color: #9b0d81;
+    background-color: #0f1968;
 }
 .btn-register {
-    background-color: #492613;
+    background-color: #606b7f;
 }
 
 

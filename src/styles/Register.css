@@ -31,13 +31,13 @@
     align-items: center;
     position: relative; 
     z-index: 1; 
-    margin-top: 80%; 
+    margin-top: 100%; 
 }
 
 .title {
     font-size: 2rem;
     font-weight: bold;
-    color: #772d65;
+    color: #0f1968;
     margin-bottom: 20px;
 }
 
@@ -69,17 +69,17 @@
 
 
 .submit-btn {
-    background-color: #9b0d81;
+    background-color: #0f1968;
 }
 
 .submit-btn:hover {
-    background-color: #8b0b74;
+    background-color: #18279c;
 }
 
 .back-btn {
-    background-color: #492613;
+    background-color: #606b7f;
 }
 
 .back-btn:hover {
-    background-color: #3c2010;
+    background-color: #3e4654;
 }
