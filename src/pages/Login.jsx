@@ -5,12 +5,11 @@ import { ButtonsLogin } from '../components/ButtonsLogin';
 
 export const Login = () => {
     return (
-        <div className='imagen'>
-             <img className="logo" src={logo} alt="Logo Shoe" />
+        <div className="login-container">
+            <img className="logo" src={logo} alt="Logo Shoe" />
             <div className="container_principal">
-            <ButtonsLogin />
+                <ButtonsLogin />
+            </div>
         </div>
-    
-        </div>
-     );   
+    );   
 };

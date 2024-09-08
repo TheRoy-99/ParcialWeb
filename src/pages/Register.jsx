@@ -48,7 +48,7 @@ export const Register = () => {
             console.error('Error:', error); 
             Swal.fire({
                 title: 'Error',
-                text: 'Error al registrar usuario: ' + (error.response?.data?.message || 'Error desconocido'),
+                text: 'Error al registrar usuario: ',
                 icon: 'error',
                 confirmButtonText: 'Intentar de nuevo'
             });
@@ -57,8 +57,9 @@ export const Register = () => {
 
     return (
         <div className="container_principal">
-            <img className="shoe" src={logo} alt="Logo Donuts" />
+                        <img className="shoe" src={logo} alt="Logo Donuts" />
             <div className="form-container">
+
                 <h5 className="title">Register</h5>
                 <form onSubmit={registerService}>
                     <input 
