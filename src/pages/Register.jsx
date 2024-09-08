@@ -57,7 +57,7 @@ export const Register = () => {
 
     return (
         <div className="container_principal">
-                        <img className="shoe" src={logo} alt="Logo Donuts" />
+                        <img className="shoe" src={logo} alt="Logo shoe" />
             <div className="form-container">
 
                 <h5 className="title">Register</h5>

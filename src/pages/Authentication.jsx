@@ -54,9 +54,9 @@ export const Authentication = () => {
     };
 
     return (
-        <div className="container_principal">
+        <div className="container_principal2">
             <img className="shoe" src={logo} alt="logo zapato" />
-            <div className="form-container">
+            <div className="form-container2">
                 <h5 className="title">Login</h5>
                 <form onSubmit={loginService} className="login_form">
                     <input 
