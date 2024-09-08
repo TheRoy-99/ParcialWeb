@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/Authentication.css'; 
-import logo from '../assets/donnut.png'; 
+import logo from '../assets/logoSneaker.png'; 
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
@@ -45,7 +45,7 @@ export const Authentication = () => {
             console.error("Error:", error);
             Swal.fire({
                 icon: 'error',
-                title: 'Error 😶',
+                title: 'Error ✖️',
                 text: 'Clave y usuario/correo incorrectos. Inténtalo nuevamente.',
             });
         } finally {
@@ -55,7 +55,7 @@ export const Authentication = () => {
 
     return (
         <div className="container_principal">
-            <img className="dona" src={logo} alt="logo dona" />
+            <img className="shoe" src={logo} alt="logo zapato" />
             <div className="form-container">
                 <h5 className="title">Login</h5>
                 <form onSubmit={loginService} className="login_form">

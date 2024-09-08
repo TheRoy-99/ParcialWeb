@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/Register.css'; 
-import logo from '../assets/donnut.png'; 
+import logo from '../assets/logoSneaker.png'; 
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2'; 
@@ -57,7 +57,7 @@ export const Register = () => {
 
     return (
         <div className="container_principal">
-            <img className="dona" src={logo} alt="Logo Donuts" />
+            <img className="shoe" src={logo} alt="Logo Donuts" />
             <div className="form-container">
                 <h5 className="title">Register</h5>
                 <form onSubmit={registerService}>
