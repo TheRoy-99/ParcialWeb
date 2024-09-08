@@ -1,70 +1,66 @@
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-    gap: 20px;
-    padding: 20px;
-    background-color: #f0f4f8; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 15px; 
+    padding: 15px;
+    background-color: #f0f4f8;
+}
 
 .product-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #ffffff;
-    border: 2px solid #e0e0e0;
-    border-radius: 15px;
+    border: 1px solid #e0e0e0; 
+    border-radius: 10px; 
     overflow: hidden;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
+    max-width: 100%;
 }
 
 .product-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.03); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
 .product-image {
     width: 100%;
-    height: 200px;
+    height: 150px; 
     object-fit: cover;
-    border-bottom: 2px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0; 
 }
 
 .product-info {
-    padding: 15px;
+    padding: 10px; 
     text-align: center;
 }
 
 .product-name {
-    font-size: 20px;
+    font-size: 18px; 
     font-weight: bold;
-    color: #ff4081; 
-    margin: 10px 0;
+    color: #ff4081;
+    margin: 5px 0;
 }
 
 .product-price {
-    font-size: 18px;
-    color: #4caf50; 
-    margin-bottom: 10px;
+    font-size: 16px;
+    color: #4caf50;
+    margin-bottom: 5px; 
 }
 
-.product-description {
-    font-size: 14px;
-    color: #757575;
-}
-
-
-.product-card button,
-.product-card a {
+.product-link {
     display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #ff4081; 
+    margin-top: 5px; 
+    padding: 8px 16px; 
+    background-color: #ff4081;
     color: #fff;
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: 20px; 
     transition: background-color 0.3s ease;
 }
 
-.product-card button:hover,
-.product-card a:hover {
+.product-link:hover {
     background-color: #ff80ab;
 }
