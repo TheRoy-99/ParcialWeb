@@ -3,8 +3,7 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajusta de 2 a 3 columnas según el espacio */
     gap: 20px;
     padding: 20px;
-    background-color: #f0f4f8; /* Fondo más suave para todo el grid */
-}
+    background-color: #f0f4f8; 
 
 .product-card {
     display: flex;
@@ -21,9 +20,7 @@
 
 .product-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra más prominente al hacer hover */
-}
-
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
 .product-image {
     width: 100%;
     height: 200px;
